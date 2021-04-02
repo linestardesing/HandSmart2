@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Hand Smart",
-    "currentPage": "index.html",
+    "currentPage": "Servicios.html",
     "theme": {
       "name": "politicsm4",
       "title": "PoliticsM4",
@@ -3729,10 +3729,12 @@
               "background-color": "@bg-value"
             },
             "H1": {
-              "color": "#57468b"
+              "color": "#57468b",
+              "text-align": "center"
             },
             ".mbr-text, .mbr-section-btn": {
-              "color": "#232323"
+              "color": "#232323",
+              "text-align": "center"
             },
             "img": {
               "width": "100%",
@@ -3751,13 +3753,13 @@
           },
           "_name": "extContent18",
           "_sourceTheme": "politicsm4",
-          "_customHTML": "<section class=\"extContent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#716c80\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n    <div class=\"container align-center\">\n        <div class=\"row\">\n            <div class=\"col-lg-6 col-md-12 align-center\" mbr-class=\"{'order-2':reverseContent}\">\n                <img src=\"@PROJECT_PATH@/assets/images/handsmart15web-1012x1012.jpeg\" alt=\"Mobirise\">\n\n                <h1 class=\"mbr-section-title mbr-regular pt-5 align-left mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><br><br>•\tCourier desde Miami a Ecuador</h1>\n                <h3 class=\"mbr-section-subtitle align-left align-left mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">Lorem ipsum dolor sit amet</h3>\n                <p class=\"mbr-text mbr-light pt-4 align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">-\tHANDSMART-PC235 \n12600 NW 25 ST Suite 115P\n<br>Miami, Florida 33182\n305-9181620<br>-\tManejamos las categorías A, B,C,D,E,F<br>-\tEntregas inmediatas, tarifa accesible&nbsp;<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">READ MORE</a></div>\n\n            </div>\n\n            <div class=\"col-md-12 col-lg-6 m-auto\">\n\n\n\n                <h1 class=\"mbr-section-title mbr-regular pt-5 align-left mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Comercio Exterior&nbsp;</h1>\n                <h3 class=\"mbr-section-subtitle align-left align-left mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">Lorem ipsum dolor sit amet</h3>\n                <p class=\"mbr-text mbr-light pt-4 align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">-\tServicio de importación\n<br>-\tServicio de exportación\n<br>-\tTrámites de aduana\n<br>-\tAsistencia en aforos\n<br>-\tEjecución de inspecciones y reconocimientos\n<br>-\tRegistros y permisos para importador\n<br>-\tAsesoría Aduanera\n<br>-\tPermisos ARCSA, Registro Sanitario&nbsp;<br><br><br><br><br><br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left  mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">READ MORE</a></div>\n\n                <div class=\"pt-5\">\n                    <img src=\"@PROJECT_PATH@/assets/images/handsmart14web-1012x1012.jpeg\" alt=\"Mobirise\">\n                </div>\n            </div>\n\n\n        </div>\n\n\n\n    </div>\n</section>",
+          "_customHTML": "<section class=\"extContent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#716c80\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n    <div class=\"container align-center\">\n        <div class=\"row\">\n            <div class=\"col-lg-6 col-md-12 align-center\" mbr-class=\"{'order-2':reverseContent}\">\n                <img src=\"@PROJECT_PATH@/assets/images/handsmart15web-1012x1012.jpeg\" alt=\"Mobirise\">\n\n                <h1 class=\"mbr-section-title mbr-regular pt-5 align-left mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><br><br>•\tCourier desde Miami a Ecuador</h1>\n                <h3 class=\"mbr-section-subtitle align-left align-left mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">Lorem ipsum dolor sit amet</h3>\n                <p class=\"mbr-text mbr-light pt-4 align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">-\tHANDSMART-PC235 \n12600 NW 25 ST Suite 115P\n<br>Miami, Florida 33182\n305-9181620<br>-\tManejamos las categorías A, B,C,D,E,F<br>-\tEntregas inmediatas, tarifa accesible&nbsp;<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">READ MORE</a></div>\n\n            </div>\n\n            <div class=\"col-md-12 col-lg-6 m-auto\">\n\n\n\n                <h1 class=\"mbr-section-title mbr-regular pt-5 align-left mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">•\tComercio Exterior&nbsp;</h1>\n                <h3 class=\"mbr-section-subtitle align-left align-left mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">Lorem ipsum dolor sit amet</h3>\n                <p class=\"mbr-text mbr-light pt-4 align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">-\tServicio de importación\n<br>-\tServicio de exportación\n<br>-\tTrámites de aduana\n<br>-\tAsistencia en aforos\n<br>-\tEjecución de inspecciones y reconocimientos\n<br>-\tRegistros y permisos para importador\n<br>-\tAsesoría Aduanera\n<br>-\tPermisos ARCSA, Registro Sanitario&nbsp;<br><br><br><br><br><br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left  mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">READ MORE</a></div>\n\n                <div class=\"pt-5\">\n                    <img src=\"@PROJECT_PATH@/assets/images/handsmart14web-1012x1012.jpeg\" alt=\"Mobirise\">\n                </div>\n            </div>\n\n\n        </div>\n\n\n\n    </div>\n</section>",
           "_cid": "stmrZHvkPA",
+          "_anchor": "extContent18-2f",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "extContent18-2f"
+          "_params": {}
         },
         {
           "alias": "mobirise4-blocks/components",
@@ -3786,24 +3788,28 @@
               }
             },
             ".mbr-text-right": {
-              "color": "#36404c"
+              "color": "#36404c",
+              "text-align": "center"
             },
             ".mbr-text-left": {
-              "text-align": "left"
+              "text-align": "center"
             },
             ".article-title-left": {
-              "text-align": "left"
+              "text-align": "center"
+            },
+            ".article-title-right": {
+              "text-align": "center"
             }
           },
           "_name": "extContent2",
           "_sourceTheme": "politicsm4",
           "_customHTML": "<section class=\"mbr-section extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Counter\" name=\"showCounter\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Border\" name=\"showBorder\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"title col-12 col-md-12\">\n            <h2 mbr-if=\"showTitle\" class=\"align-center mbr-fonts-style pb-5\" mbr-theme-style=\"display-2\">OTROS&nbsp;<b>SERVICIOS</b></h2>\n        </div>\n        <div class=\"media-container-row mt-4\">\n            <div class=\"article article-right-border mb-4 col-sm-12 col-md-6\">\n                <h4 mbr-if=\"showCounter\" data-app-selector=\".article-counter-left\" class=\"align-center pb-3 mbr-fonts-style align-right article-counter-left\" mbr-theme-style=\"display-1\">\n                    01\n                </h4>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".article-title-left\" class=\"article-title-left align-right mbr-fonts-style pb-4\" mbr-theme-style=\"display-5\">•\tArriendo de puestos de oficina</h3>\n                <p data-app-selector=\".mbr-text-left\" class=\"mbr-text-left align-right mbr-fonts-style\" mbr-theme-style=\"display-7\">-\tEntrega de tarjeta magnética para el acceso a oficina\n<br>-\tOcupación 24/7 \n<br>-\tAsignación de cancel \n<br>-\tAcceso a internet, copias, scann&nbsp;<br></p>\n            </div>\n            <div class=\"article mb-4 col-sm-12 col-md-6\">\n                <h4 mbr-if=\"showCounter\" data-app-selector=\".article-counter-right\" class=\"pb-3 mbr-fonts-style article-counter-right align-left\" mbr-theme-style=\"display-1\">\n                    02\n                </h4>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".article-title-right\" class=\"article-title-right mbr-fonts-style pb-4 align-left\" mbr-theme-style=\"display-5\">•\tTransmisión de guías MAWB/HBL</h3>\n                <p data-app-selector=\".mbr-text-right\" class=\"mbr-text-right mbr-fonts-style align-left\" mbr-theme-style=\"display-7\">-\tTransmisión de manifiestos de carga de aerolíneas\n<br>-\tTransmisión de manifiestos de carga de consolidadoras, navieras, Courier\n<br>-\tTransmisión 24/7 ininterrumpidamente\n<br>-\tPrevención de multas por varios factores ( itinerarios)\n<br>-\tUbicación estratégica y buena relación con aerolíneas\n<br>-\tTransmisiones verificadas y notificadas en tiempo real&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "stmtW3opia",
+          "_anchor": "extContent2-2h",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "extContent2-2h"
+          "_params": {}
         },
         {
           "alias": "mobirise4-blocks/components",
@@ -3832,13 +3838,17 @@
               }
             },
             ".mbr-text-right": {
-              "color": "#36404c"
+              "color": "#36404c",
+              "text-align": "center"
             },
             ".mbr-text-left": {
-              "text-align": "left"
+              "text-align": "center"
             },
             ".article-title-left": {
-              "text-align": "left"
+              "text-align": "center"
+            },
+            ".article-title-right": {
+              "text-align": "center"
             }
           },
           "_name": "extContent2",
@@ -3879,13 +3889,17 @@
               }
             },
             ".mbr-text-right": {
-              "color": "#36404c"
+              "color": "#36404c",
+              "text-align": "center"
             },
             ".mbr-text-left": {
-              "text-align": "left"
+              "text-align": "center"
             },
             ".article-title-left": {
-              "text-align": "left"
+              "text-align": "center"
+            },
+            ".article-title-right": {
+              "text-align": "center"
             }
           },
           "_name": "extContent2",
@@ -3929,10 +3943,13 @@
               "color": "#36404c"
             },
             ".mbr-text-left": {
-              "text-align": "left"
+              "text-align": "center"
             },
             ".article-title-left": {
-              "text-align": "left"
+              "text-align": "center"
+            },
+            ".article-title-right": {
+              "text-align": "center"
             }
           },
           "_name": "extContent2",
@@ -3973,16 +3990,18 @@
               }
             },
             ".mbr-text-right": {
-              "color": "#36404c"
+              "color": "#36404c",
+              "text-align": "center"
             },
             ".mbr-text-left": {
-              "text-align": "left"
+              "text-align": "center"
             },
             ".article-title-left": {
-              "text-align": "left"
+              "text-align": "center"
             },
             ".article-title-right": {
-              "color": "#232323"
+              "color": "#232323",
+              "text-align": "center"
             }
           },
           "_name": "extContent2",
@@ -4023,16 +4042,18 @@
               }
             },
             ".mbr-text-right": {
-              "color": "#36404c"
+              "color": "#36404c",
+              "text-align": "center"
             },
             ".mbr-text-left": {
-              "text-align": "left"
+              "text-align": "center"
             },
             ".article-title-left": {
-              "text-align": "left"
+              "text-align": "center"
             },
             ".article-title-right": {
-              "color": "#232323"
+              "color": "#232323",
+              "text-align": "center"
             }
           },
           "_name": "extContent2",
@@ -4073,16 +4094,18 @@
               }
             },
             ".mbr-text-right": {
-              "color": "#36404c"
+              "color": "#36404c",
+              "text-align": "center"
             },
             ".mbr-text-left": {
-              "text-align": "left"
+              "text-align": "center"
             },
             ".article-title-left": {
-              "text-align": "left"
+              "text-align": "center"
             },
             ".article-title-right": {
-              "color": "#232323"
+              "color": "#232323",
+              "text-align": "center"
             }
           },
           "_name": "extContent2",
@@ -4123,16 +4146,18 @@
               }
             },
             ".mbr-text-right": {
-              "color": "#36404c"
+              "color": "#36404c",
+              "text-align": "center"
             },
             ".mbr-text-left": {
-              "text-align": "left"
+              "text-align": "center"
             },
             ".article-title-left": {
-              "text-align": "left"
+              "text-align": "center"
             },
             ".article-title-right": {
-              "color": "#232323"
+              "color": "#232323",
+              "text-align": "center"
             }
           },
           "_name": "extContent2",
